@@ -21,12 +21,12 @@ export default defineNuxtConfig({
       ],
       theme_color: '#000000'
     },
-    workbox: {
-      navigateFallback: '/',
-    },
-    devOptions: {
-      enabled: true,
-      type: 'module',
-    },
+    // workbox: {
+    //   navigateFallback: '/',
+    // },
+    // devOptions: {
+    //   enabled: true,
+    //   type: 'module',
+    // },
   },
 })
