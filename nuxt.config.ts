@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       name: 'myAppExamplePWA',
       short_name: 'PWA Example',
       description: 'pwa with nuxt3',
+      start_url: '/',
+      display: 'minimal-ui',
+      background_color: '#ffffff',
       icons: [
         {
           src: '/OIG4_192.jpeg',
@@ -20,13 +23,6 @@ export default defineNuxtConfig({
         },
       ],
       theme_color: '#000000'
-    },
-    // workbox: {
-    //   navigateFallback: '/',
-    // },
-    // devOptions: {
-    //   enabled: true,
-    //   type: 'module',
-    // },
+    },  
   },
 })
